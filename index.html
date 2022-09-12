@@ -9,11 +9,18 @@
     <title>Frontend Mentor | Product preview card component</title>
     <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
     <div class="container">
       <div class="even-columns">
 
-        <div class="image-container"></div>
+        <div class="image-container">
+          <picture>
+            <source media="(min-width: 801px)" srcset="images/image-product-desktop.jpg">
+            <source media="(max-width: 800px)" srcset="images/image-product-mobile.jpg">
+            <img src="images/image-product-desktop.jpg" alt="Perfume">
+          </picture>
+        </div>
 
         <div class="content-container">
           <div>
@@ -38,16 +45,13 @@
             </button>
           </div>
         </div>
+        
       </div>
     </div>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+        Mentor</a>.
       Coded by <a href="#">Kira Weizman Shapira</a>.
     </div>
-
-
-
-
-
   </body>
 </html>

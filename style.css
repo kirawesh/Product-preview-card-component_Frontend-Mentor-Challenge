@@ -13,12 +13,10 @@
         --nc-White: hsl(0, 0%, 100%);
 
         /* fonts */
-        --ff-primary: 'Fraunces',
-            serif;
+        --ff-primary: 'Fraunces', serif;
         --fw-primary-500: 500;
         --fw-primary-700: 700;
-        --ff-secondary: 'Montserrat',
-            sans-serif;
+        --ff-secondary: 'Montserrat', sans-serif;
         --fw-secondary-400: 400;
         --fw-secondary-700: 700;
     }
@@ -54,19 +52,15 @@
         margin: 0 auto;
         display: grid;
         grid-auto-flow: column;
-        align-items: center;
         background: var(--nc-White);
         width: 600px;
         max-height: 100%;
         border-radius: .8em;
     }
 
-    .image-container {
-        background: url(images/image-product-desktop.jpg) no-repeat;
-        background-size: 100%;
+    .image-container img {
         width: 300px;
         min-height: 100%;
-        ;
         border-radius: .8em 0 0 .8em;
     }
 
@@ -176,9 +170,7 @@
             border-radius: .8em;
         }
 
-        .image-container {
-            background: url(images/image-product-mobile.jpg) no-repeat;
-            background-size: 100%;
+        .image-container img {
             min-width: 100%;
             min-height: 350px;
             border-radius: .8em .8em 0 0;
